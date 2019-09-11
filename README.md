@@ -8,6 +8,7 @@ Create a new schema in mysql
 > Collation :  utf_8_unicode_ci
 # step 2 Config Database
 config  in floder  "src/main/resources/application.properties"
+
 ***MySQL jdbc connection url.***
 >spring.datasource.url=jdbc:mysql://localhost:3306/**yourSchemaName**?useSSL=false 
 >github : [url](https://github.com/apichart2425/SmartShop_SOP/blob/master/src/main/resources/application.properties]) 

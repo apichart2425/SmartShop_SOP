@@ -1,0 +1,15 @@
+    "message": "Validation failed for classes [com.SmartShop.SmartShop_sop.model.CoffeeModel] during persist time for groups
+     [javax.validation.groups.Default, ]\nList of constraint violations:[\n\tConstraintViolationImpl{interpolatedMessage='must not be null',
+      propertyPath=Serialnumber, rootBeanClass=class com.SmartShop.SmartShop_sop.model.CoffeeModel,
+      messageTemplate='{javax.validation.constraints.NotNull.message}'}\n\tConstraintViolationImpl{interpolatedMessage='must not be null',
+       propertyPath=Price, rootBeanClass=class com.SmartShop.SmartShop_sop.model.CoffeeModel,
+       messageTemplate='{javax.validation.constraints.NotNull.message}'}\n\tConstraintViolationImpl{interpolatedMessage='must not be null',
+       propertyPath=Name, rootBeanClass=class com.SmartShop.SmartShop_sop.model.CoffeeModel,
+       messageTemplate='{javax.validation.constraints.NotNull.message}'}\n\tConstraintViolationImpl{interpolatedMessage='must not be null',
+        propertyPath=CoffeeBean, rootBeanClass=class com.SmartShop.SmartShop_sop.model.CoffeeModel,
+        messageTemplate='{javax.validation.constraints.NotNull.message}'}\n]",
+
+
+"No default constructor for entity:  : com.SmartShop.SmartShop_sop.model.CoffeeModel;
+nested exception is org.hibernate.InstantiationException: No default constructor for entity:
+: com.SmartShop.SmartShop_sop.model.CoffeeModel",
